@@ -10,3 +10,4 @@ apollo-overrides
 build
 eclipse-bin/
 eclipse-build/
+*.class

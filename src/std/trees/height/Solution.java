@@ -26,6 +26,6 @@ public class Solution {
     
     public static void main(String[] args) {
         Tree tree = new Tree(1, new Tree(2), new Tree(3, new Tree(4), new Tree(5)));
-        System.out.println(minDepth(tree));
+        System.out.println(height(tree));
     }
 }
