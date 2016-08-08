@@ -11,3 +11,4 @@ build
 eclipse-bin/
 eclipse-build/
 *.class
+.metadata/

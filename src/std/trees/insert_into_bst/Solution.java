@@ -22,10 +22,10 @@ public class Solution {
             return new Tree(value);
         }
         if (value >= root.value) {
-            insert(root.right, value);
+            root.right = insert(root.right, value);
             return root;
         } else {
-            insert(root.left, value);
+            root.left = insert(root.left, value);
             return root;
         }
     }
