@@ -26,6 +26,10 @@ public class Solution {
         if (tree == null) {
             return null;
         }
+        
+        if (a > b) {
+            return leastCommonAncestor(tree, b, a);
+        }
 
         if (tree.value >= a && tree.value <= b) {
             return tree;
